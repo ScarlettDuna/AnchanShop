@@ -1,0 +1,27 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #F5F5F5;
+    color: #4B164C;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    background-color: #DD88CF;
+}
+table {
+    overflow: scroll;
+}
+
+.footer {
+    flex-shrink: 1;
+    background-color: #DD88CF; 
+    padding: 1rem; 
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
