@@ -30,7 +30,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Datos de cliente</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="./Infoadi.html">Información adicional</a>
+                                <a class="nav-link disabled" href="./infoadi.html">Información adicional</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link disabled" href="./pedido.html">Pedido</a>
@@ -43,7 +43,7 @@
                 </div>
             </nav>
             <div class="container-md  mt-3">
-                <form method="post" action="./Infoadi.html" class="was-validated">
+                <form method="get" action="./infoadi.html" class="was-validated">
                     <div>
                         <label for="" class="form-label">Nombre (3 - 20 letras)</label>
                         <input type="text" name="uname" id="uname" required placeholder="Enter your name" pattern="[a-zA-Z ]{3,20}" class="form-control">
@@ -51,7 +51,7 @@
                         <div class="invalid-feedback">Por favor, completa el nombre correctamente</div>
                     </div>
                     <div>
-                        <label for="" class="form-label">Correo electrónico</label>
+                        <label for="email" class="form-label">Correo electrónico</label>
                         <input type="email" name="email" id="email" required placeholder="Enter email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" class="form-control">
                         <div class="valid-feedback">Válido</div>
                         <div class="invalid-feedback">Por favor, completa el email correctamente</div>
